@@ -1,5 +1,5 @@
 #CI项目
-name: OWRT-ALL
+name: OWRT-23.05
 
 #CI计划
 on:
