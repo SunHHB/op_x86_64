@@ -28,9 +28,7 @@ UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "$([[ $WRT_REPO == *"lede"* ]
 UPDATE_PACKAGE "alist" "SunHHB/luci-app-alist" "master"
 UPDATE_PACKAGE "ddns-go" "SunHHB/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "mosdns" "SunHHB/luci-app-mosdns" "v5"
-UPDATE_PACKAGE "mihomo" "SunHHB/mihomo" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "SunHHB/luci-app-tailscale" "main"
-UPDATE_PACKAGE "SunHHB/luci-app-nekoclash" "Thaolga/luci-app-nekoclash" "neko"
 
 #UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 #UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
