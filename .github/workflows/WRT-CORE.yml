@@ -245,7 +245,7 @@ jobs:
       - name: Release Firmware
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
+          tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}
           files: ./wrt/upload/*.*
           body: |
             源码：${{env.WRT_REPO}}
