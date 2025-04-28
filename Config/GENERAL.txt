@@ -71,6 +71,9 @@ CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_tailscale=y
 
+CONFIG_PACKAGE_luci-app-fchomo=y
+CONFIG_PACKAGE_mihomoe=y
+
 #CONFIG_PACKAGE_rustdesk-server=y
 #CONFIG_PACKAGE_luci-app-rustdesk-server=y
 #删除插件
