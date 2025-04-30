@@ -213,11 +213,9 @@ jobs:
       - name: Package Firmware
         run: |
           cd ./wrt/ && mkdir -p ./upload/packages/
-          find ./bin/packages/ -iname "*alist*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*mosdns*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*v2dat*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*v2ray*" -exec mv -f {} ./upload/packages/ \;
-          find ./bin/packages/ -iname "*ddns*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*homeproxy*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*tailscale*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*fchomo*" -exec mv -f {} ./upload/packages/ \;
