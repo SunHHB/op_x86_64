@@ -29,6 +29,5 @@ UPDATE_PACKAGE "alist" "SunHHB/luci-app-alist" "master"
 UPDATE_PACKAGE "ddns-go" "SunHHB/luci-app-ddns-go" "main"
 UPDATE_PACKAGE "mosdns" "SunHHB/luci-app-mosdns" "v5"
 UPDATE_PACKAGE "luci-app-tailscale" "SunHHB/luci-app-tailscale" "main"
-
-UPDATE_PACKAGE "fchomo" "SunHHB/luci-app-fchomo" "master"
+UPDATE_PACKAGE "luci-app-fchomo" "SunHHB/luci-app-fchomo" "master"
 #UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
