@@ -7,8 +7,8 @@ sed -i "s/\.ssid=.*/\.ssid=$WRT_WIFI/g" $(find ./package/kernel/mac80211/ ./pack
 
 #replace the default startup script and configuration of Tailscale
 sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' ./feeds/packages/net/tailscale/Makefile
-sed -i "s/PKG_VERSION:=.*/PKG_VERSION:=1.82.4/g" ./feeds/packages/net/tailscale/Makefile
-sed -i "s/PKG_HASH:=.*/PKG_HASH:=9b059aed441cea724a9ef4c75555a83b2bf1899d1540d4287b4bc74f363d1563/g" ./feeds/packages/net/tailscale/Makefile
+sed -i "s/PKG_VERSION:=.*/PKG_VERSION:=1.84.1/g" ./feeds/packages/net/tailscale/Makefile
+sed -i "s/PKG_HASH:=.*/PKG_HASH:=f348dff563c9e68f21404d241bc62438ab3feeda5be95a9356f9669d4c7a8405/g" ./feeds/packages/net/tailscale/Makefile
 
 #replace the default PKG_VERSION of frp
 #sed -i "s/0.51.3/0.60.0/g" ./feeds/packages/net/frp/Makefile
