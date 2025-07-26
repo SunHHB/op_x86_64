@@ -10,10 +10,6 @@ sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' ./feeds/packa
 sed -i "s/PKG_VERSION:=.*/PKG_VERSION:=1.86.1/g" ./feeds/packages/net/tailscale/Makefile
 sed -i "s/PKG_HASH:=.*/PKG_HASH:=4082da6ff499aa9a0b42b66cfca18acccd25dcc504cfa660d0bf359b1dac4802/g" ./feeds/packages/net/tailscale/Makefile
 
-#replace the default PKG_VERSION of frp
-#sed -i "s/0.51.3/0.60.0/g" ./feeds/packages/net/frp/Makefile
-#sed -i "s/83032399773901348c660d41c967530e794ab58172ccd070db89d5e50d915fef/8feaf56fc3f583a51a59afcab1676f4ccd39c1d16ece08d849f8dc5c1e5bff55/g" ./feeds/packages/net/frp/Makefile
-
 CFG_FILE="./package/base-files/files/bin/config_generate"
 #修改默认IP地址
 sed -i "s/192\.168\.[0-9]*\.[0-9]*/$WRT_IP/g" $CFG_FILE
