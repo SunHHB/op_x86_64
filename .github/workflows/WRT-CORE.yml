@@ -218,7 +218,7 @@ jobs:
           find ./bin/packages/ -iname "*v2ray*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*homeproxy*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*tailscale*" -exec mv -f {} ./upload/packages/ \;
-          find ./bin/packages/ -iname "*fchomo*" -exec mv -f {} ./upload/packages/ \;
+          find ./bin/packages/ -iname "*ddns-go*" -exec mv -f {} ./upload/packages/ \;
           find ./bin/packages/ -iname "*mihomo*" -exec mv -f {} ./upload/packages/ \;
           
           
